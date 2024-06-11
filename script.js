@@ -13,7 +13,7 @@ function addNewImages() {
     newImgEl.src = `https://picsum.photos/300?random=${Math.floor(
       Math.random() * 2000
     )}`;
-    
+
     imageContainerEl.append(newImgEl);
   }
 }
